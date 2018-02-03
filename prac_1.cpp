@@ -4,12 +4,21 @@ using namespace std;
 class A {
 public:
 	A();
-	A(int x){ a = x; }
+	A(int x) { 
+		a = x;
+		b = 0; 
+	}
+	
+	A(int x, int y) {
+		a = x;
+		b = y;
+	}
 	display() {
-		cout << a ;
+		cout << a << " " << b;
 	}
 private:
 	int a;
+	int b;
 };
 
 int main() {
