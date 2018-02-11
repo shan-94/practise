@@ -16,6 +16,7 @@ public:
 	display() {
 		cout << a << " " << b;
 	}
+	
 private:
 	int a;
 	int b;
